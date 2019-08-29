@@ -1,0 +1,8 @@
+{
+  "change_time": {
+    "subtitle": "enderclock.ender_clock.changeTime",
+    "sounds": [
+      { "name": "enderclock:change_time", "stream": true }
+    ]
+  }
+}

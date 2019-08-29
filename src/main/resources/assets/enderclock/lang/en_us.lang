@@ -1,0 +1,11 @@
+// Items
+item.ender_clock.name=Ender Clock
+// Blocks
+tile.ender_block.name=Ender Block
+// Tools
+item.ender_sword.name=Ender Sword of Time
+// Armor
+item.ender_helmet.name=Ender Helm of Time
+item.ender_chestplate.name=Ender Chestplate of Time
+item.ender_leggings.name=Ender Leggings of Time
+item.ender_boots.name=Ender Boots of Time
