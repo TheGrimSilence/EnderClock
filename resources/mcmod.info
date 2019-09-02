@@ -1,16 +1,16 @@
 [
-{
-  "modid": "enderclock",
-  "name": "Ender Clock",
-  "description": "Change night to day, and day to night! Take, Za Warudo!!",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
-  "url": "thegrimsilence.com",
-  "updateUrl": "",
-  "authorList": ["TheGrimSilence", "wizard_gandy"],
-  "credits": "The Forge and FML guys, for making this example",
-  "logoFile": "",
-  "screenshots": [],
-  "dependencies": []
-}
+  {
+    "modid": "enderclock",
+    "name": "Ender Clock",
+    "description": "Change night to day, and day to night! Take, Za Warudo!!",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "https://github.com/TheGrimSilence/EnderClock",
+    "updateUrl": "",
+    "authorList": ["TheGrimSilence"],
+    "credits": "The Forge and FML guys, for making this example",
+    "logoFile": "logo.png",
+    "screenshots": [],
+    "dependencies": []
+  }
 ]
