@@ -1,11 +1,91 @@
-// Items
-item.ender_clock.name=Ender Clock
 // Blocks
 tile.ender_block.name=Ender Block
+
+// Items
+item.ender_clock.name=Ender Clock
+
 // Tools
 item.ender_sword.name=Ender Sword of Time
+
 // Armor
 item.ender_helmet.name=Ender Helm of Time
 item.ender_chestplate.name=Ender Chestplate of Time
 item.ender_leggings.name=Ender Leggings of Time
 item.ender_boots.name=Ender Boots of Time
+
+################
+#    Blocks    #
+################
+
+# tile.<name>.name
+# tile.<name>.tooltip?
+
+tile.ender_block.name=Ender Block
+
+################
+#    Items     #
+################
+
+# tile.<name>.name
+# tile.<name>.tooltip?
+
+item.ender_clock.name=Ender Clock
+
+# Tools
+item.ender_sword.name=Ender Sword of Time
+
+# Armor
+item.ender_helmet.name=Ender Helm of Time
+item.ender_chestplate.name=Ender Chestplate of Time
+item.ender_leggings.name=Ender Leggings of Time
+item.ender_boots.name=Ender Boots of Time
+
+#################
+#   Entities    #
+#################
+
+#entity.endermod.
+
+#################
+#    Liquids    #
+#################
+
+#################
+#    Potions    #
+#################
+
+#################
+#   Materials   #
+#################
+
+#############
+#   Stats   #
+#############
+
+##############
+#   Traits   #
+##############
+
+#################
+#   Modifiers   #
+#################
+
+#################
+#   Tool Info   #
+#################
+
+################
+#   Tooltips   #
+################
+
+##################
+#   UI Strings   #
+##################
+
+######################
+# GUI Error messages #
+######################
+
+################
+#     GUIs     #
+################
