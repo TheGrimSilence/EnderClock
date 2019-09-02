@@ -1,12 +1,11 @@
-package com.thegrimsilence.enderclock.items.armor;
-
-import com.thegrimsilence.enderclock.Main;
-import com.thegrimsilence.enderclock.init.ModItems;
-import com.thegrimsilence.enderclock.util.IHasModel;
+package thegrimsilence.enderclock.items.armor;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.ItemArmor;
+import thegrimsilence.enderclock.Main;
+import thegrimsilence.enderclock.init.ModItems;
+import thegrimsilence.enderclock.util.IHasModel;
 
 public class ArmorBase extends ItemArmor implements IHasModel {
 

@@ -1,9 +1,8 @@
-package com.thegrimsilence.enderclock.objects.tools;
+package thegrimsilence.enderclock.objects.tools;
 
 import java.util.Timer;
 import java.util.TimerTask;
 
-import com.thegrimsilence.enderclock.items.ItemBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ActionResult;
@@ -12,6 +11,7 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;
 import net.minecraft.world.World;
+import thegrimsilence.enderclock.items.ItemBase;
 
 public class EnderClock extends ItemBase {
 	Boolean isActive;

@@ -1,4 +1,4 @@
-package com.thegrimsilence.enderclock.util;
+package thegrimsilence.enderclock.util;
 
 public interface IHasModel {
 	public void registerModels();

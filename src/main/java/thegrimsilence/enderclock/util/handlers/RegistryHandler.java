@@ -1,8 +1,4 @@
-package com.thegrimsilence.enderclock.util.handlers;
-
-import com.thegrimsilence.enderclock.init.ModBlocks;
-import com.thegrimsilence.enderclock.init.ModItems;
-import com.thegrimsilence.enderclock.util.IHasModel;
+package thegrimsilence.enderclock.util.handlers;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -10,6 +6,9 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import thegrimsilence.enderclock.init.ModBlocks;
+import thegrimsilence.enderclock.init.ModItems;
+import thegrimsilence.enderclock.util.IHasModel;
 
 @EventBusSubscriber
 public class RegistryHandler 

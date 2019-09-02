@@ -1,12 +1,11 @@
-package com.thegrimsilence.enderclock.init;
+package thegrimsilence.enderclock.init;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.thegrimsilence.enderclock.blocks.EnderBlock;
-
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
+import thegrimsilence.enderclock.blocks.EnderBlock;
 
 public class ModBlocks {
 	public static final List<Block> BLOCKS = new ArrayList<Block>();

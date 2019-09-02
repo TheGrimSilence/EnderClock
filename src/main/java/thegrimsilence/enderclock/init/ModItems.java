@@ -1,13 +1,7 @@
-package com.thegrimsilence.enderclock.init;
+package thegrimsilence.enderclock.init;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import com.thegrimsilence.enderclock.items.ItemBase;
-import com.thegrimsilence.enderclock.items.armor.ArmorBase;
-import com.thegrimsilence.enderclock.items.tools.ToolSword;
-import com.thegrimsilence.enderclock.objects.tools.EnderClock;
-import com.thegrimsilence.enderclock.util.Reference;
 
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
@@ -16,6 +10,10 @@ import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
 import net.minecraft.item.ItemSword;
 import net.minecraftforge.common.util.EnumHelper;
+import thegrimsilence.enderclock.items.armor.ArmorBase;
+import thegrimsilence.enderclock.items.tools.ToolSword;
+import thegrimsilence.enderclock.objects.tools.EnderClock;
+import thegrimsilence.enderclock.util.Reference;
 
 public class ModItems {
 	public static final List<Item> ITEMS = new ArrayList<Item>();

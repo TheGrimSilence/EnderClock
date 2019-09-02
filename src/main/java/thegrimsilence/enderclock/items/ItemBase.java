@@ -1,11 +1,10 @@
-package com.thegrimsilence.enderclock.items;
-
-import com.thegrimsilence.enderclock.Main;
-import com.thegrimsilence.enderclock.init.ModItems;
-import com.thegrimsilence.enderclock.util.IHasModel;
+package thegrimsilence.enderclock.items;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
+import thegrimsilence.enderclock.Main;
+import thegrimsilence.enderclock.init.ModItems;
+import thegrimsilence.enderclock.util.IHasModel;
 
 public class ItemBase extends Item implements IHasModel{
 	

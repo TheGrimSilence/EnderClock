@@ -1,10 +1,9 @@
-package com.thegrimsilence.enderclock.util.handlers;
-
-import com.thegrimsilence.enderclock.util.Reference;
+package thegrimsilence.enderclock.util.handlers;
 
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
+import thegrimsilence.enderclock.util.Reference;
 
 public class SoundsHandler {
 	public static SoundEvent CHANGE_TIME;

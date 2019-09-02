@@ -1,4 +1,4 @@
-package com.thegrimsilence.enderclock.util;
+package thegrimsilence.enderclock.util;
 
 public class Reference {
 	public static final String MOD_ID = "enderclock";

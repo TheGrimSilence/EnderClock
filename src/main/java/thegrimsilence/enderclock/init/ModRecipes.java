@@ -1,4 +1,4 @@
-package com.thegrimsilence.enderclock.init;
+package thegrimsilence.enderclock.init;
 
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.registry.GameRegistry;

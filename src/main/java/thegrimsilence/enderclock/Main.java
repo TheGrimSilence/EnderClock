@@ -1,9 +1,4 @@
-package com.thegrimsilence.enderclock;
-
-import com.thegrimsilence.enderclock.init.ModRecipes;
-import com.thegrimsilence.enderclock.proxy.CommonProxy;
-import com.thegrimsilence.enderclock.util.Reference;
-import com.thegrimsilence.enderclock.util.handlers.RegistryHandler;
+package thegrimsilence.enderclock;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -12,6 +7,10 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import thegrimsilence.enderclock.init.ModRecipes;
+import thegrimsilence.enderclock.proxy.CommonProxy;
+import thegrimsilence.enderclock.util.Reference;
+import thegrimsilence.enderclock.util.handlers.RegistryHandler;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION)
 public class Main {

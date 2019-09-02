@@ -1,4 +1,4 @@
-package com.thegrimsilence.enderclock.proxy;
+package thegrimsilence.enderclock.proxy;
 
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;

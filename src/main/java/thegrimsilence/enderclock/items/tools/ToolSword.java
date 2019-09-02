@@ -1,10 +1,9 @@
-package com.thegrimsilence.enderclock.items.tools;
-
-import com.thegrimsilence.enderclock.Main;
-import com.thegrimsilence.enderclock.util.IHasModel;
+package thegrimsilence.enderclock.items.tools;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemSword;
+import thegrimsilence.enderclock.Main;
+import thegrimsilence.enderclock.util.IHasModel;
 
 public class ToolSword extends ItemSword implements IHasModel{
 	public ToolSword(String name, ToolMaterial material)

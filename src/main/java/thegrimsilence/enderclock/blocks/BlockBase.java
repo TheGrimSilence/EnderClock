@@ -1,15 +1,14 @@
-package com.thegrimsilence.enderclock.blocks;
-
-import com.thegrimsilence.enderclock.Main;
-import com.thegrimsilence.enderclock.init.ModBlocks;
-import com.thegrimsilence.enderclock.init.ModItems;
-import com.thegrimsilence.enderclock.util.IHasModel;
+package thegrimsilence.enderclock.blocks;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
+import thegrimsilence.enderclock.Main;
+import thegrimsilence.enderclock.init.ModBlocks;
+import thegrimsilence.enderclock.init.ModItems;
+import thegrimsilence.enderclock.util.IHasModel;
 
 public class BlockBase extends Block implements IHasModel 
 {
