@@ -1,6 +1,0 @@
-{
-  "change_time": {
-    "category": "player",
-    "sounds": [{ "name": "enderclock:change_time", "stream": true }]
-  }
-}
