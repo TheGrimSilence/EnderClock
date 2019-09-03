@@ -13,29 +13,26 @@ import thegrimsilence.enderclock.util.Reference;
 import thegrimsilence.enderclock.util.handlers.RegistryHandler;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION)
-public class Main {
+public class EnderClock {
 	@Instance
-	public static Main instance;
-	
+	public static EnderClock instance;
+
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.COMMON_PROXY_CLASS)
 	public static CommonProxy proxy;
-	
+
 	@EventHandler
-	public static void PreInit(FMLPreInitializationEvent event)
-	{
-		
+	public static void PreInit(FMLPreInitializationEvent event) {
+
 	}
-	
+
 	@EventHandler
-	public static void init(FMLInitializationEvent event)
-	{
+	public static void init(FMLInitializationEvent event) {
 		ModRecipes.init();
 		RegistryHandler.initRegistries();
 	}
-	
+
 	@EventHandler
-	public static void Postinit(FMLPostInitializationEvent event)
-	{
-		
+	public static void Postinit(FMLPostInitializationEvent event) {
+
 	}
 }

@@ -25,15 +25,14 @@ public class EnderClock extends ItemBase {
 	}
 
 	@Override
-	public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer playerIn, EnumHand handIn)
-	{
+	public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer playerIn, EnumHand handIn) {
 		ItemStack item = playerIn.getHeldItem(handIn);
 		ResourceLocation location = new ResourceLocation("enderclock", "change_time");
 		SoundEvent event = new SoundEvent(location);
-		
+
 		item.damageItem(1, playerIn);
 		playerIn.playSound(event, 1.0F, 1.0F);
-			
+
 		Timer t = new Timer();
 		t.schedule(new TimerTask() {
 			@Override
@@ -42,8 +41,8 @@ public class EnderClock extends ItemBase {
 				isActive = false;
 			}
 		}, 4000);
-		
+
 		return new ActionResult<ItemStack>(EnumActionResult.SUCCESS, item);
 	}
-	
+
 }

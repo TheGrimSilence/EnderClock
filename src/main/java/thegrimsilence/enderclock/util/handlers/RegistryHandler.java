@@ -11,42 +11,33 @@ import thegrimsilence.enderclock.init.ModItems;
 import thegrimsilence.enderclock.util.IHasModel;
 
 @EventBusSubscriber
-public class RegistryHandler 
-{
+public class RegistryHandler {
 	@SubscribeEvent
-	public static void onItemRegister(RegistryEvent.Register<Item> event)
-	{
+	public static void onItemRegister(RegistryEvent.Register<Item> event) {
 		event.getRegistry().registerAll(ModItems.ITEMS.toArray(new Item[0]));
 	}
-	
+
 	@SubscribeEvent
-	public static void onBlockRegister(RegistryEvent.Register<Block> event)
-	{
+	public static void onBlockRegister(RegistryEvent.Register<Block> event) {
 		event.getRegistry().registerAll(ModBlocks.BLOCKS.toArray(new Block[0]));
 	}
-	
+
 	@SubscribeEvent
-	public static void onModelRegister(ModelRegistryEvent event)
-	{
-		for(Item item : ModItems.ITEMS) 
-		{
-			if(item instanceof IHasModel) 
-			{
-				((IHasModel)item).registerModels();
+	public static void onModelRegister(ModelRegistryEvent event) {
+		for (Item item : ModItems.ITEMS) {
+			if (item instanceof IHasModel) {
+				((IHasModel) item).registerModels();
 			}
 		}
-		
-		for(Block block : ModBlocks.BLOCKS) 
-		{
-			if(block instanceof IHasModel) 
-			{
-				((IHasModel)block).registerModels();
+
+		for (Block block : ModBlocks.BLOCKS) {
+			if (block instanceof IHasModel) {
+				((IHasModel) block).registerModels();
 			}
 		}
 	}
-	
-	public static void initRegistries()
-	{
+
+	public static void initRegistries() {
 		SoundsHandler.registerSounds();
 	}
 }

@@ -7,14 +7,12 @@ import thegrimsilence.enderclock.util.Reference;
 
 public class SoundsHandler {
 	public static SoundEvent CHANGE_TIME;
-	
-	public static void registerSounds()
-	{
+
+	public static void registerSounds() {
 		CHANGE_TIME = registerSound("change_time");
 	}
-	
-	private static SoundEvent registerSound(String name)
-	{
+
+	private static SoundEvent registerSound(String name) {
 		ResourceLocation location = new ResourceLocation(Reference.MOD_ID, name);
 		SoundEvent event = new SoundEvent(location);
 		event.setRegistryName(name);

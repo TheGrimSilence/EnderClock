@@ -3,7 +3,7 @@ package thegrimsilence.enderclock.items.armor;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.ItemArmor;
-import thegrimsilence.enderclock.Main;
+import thegrimsilence.enderclock.EnderClock;
 import thegrimsilence.enderclock.init.ModItems;
 import thegrimsilence.enderclock.util.IHasModel;
 
@@ -14,12 +14,12 @@ public class ArmorBase extends ItemArmor implements IHasModel {
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		setCreativeTab(CreativeTabs.COMBAT);
-		
+
 		ModItems.ITEMS.add(this);
 	}
-	
+
 	@Override
 	public void registerModels() {
-		Main.proxy.registerItemRenderer(this, 0, "inventory");
+		EnderClock.proxy.registerItemRenderer(this, 0, "inventory");
 	}
 }
